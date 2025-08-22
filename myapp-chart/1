@@ -1,0 +1,11 @@
+replicaCount: 2
+image:
+  repository: mydockerhub/myapp
+  tag: v1
+service:
+  type: ClusterIP
+
+serviceAccount:
+  create: true
+  name: ""
+
